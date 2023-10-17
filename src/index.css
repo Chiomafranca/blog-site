@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.background1 {
+  background-image: url('../src/images/scroll_1.png');
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url('../src/images/scroll_2.png');
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background3 {
+  background-image: url('../src/images/scroll_3.png');
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* START OF CENTEREDBODY */
+   .bgbody{
+     background-image: url("../src/images/bg1.png");
+     width: 100%;
+     /* max-width: 1000px; */
+     height: 430px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+  .blog1{
+     background-image: url("./images/blog1.png");
+     width: 100%;
+     height: 300px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+  }
+   .blog2{
+    background-image: url("./images/blog2.png");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .blog3{
+    background-image: url("./images/blog3.png");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  } 
+
+
+@media screen and (max-width: 1200px) {
+    .navitems{
+       font-size: 8px;
+       display: flex;
+       flex-shrink: inherit;
+       position: relative;
+       right: -5px;
+    }
+
+    #editors-pick{
+       text-align: center;
+    }
+
+ 
+
+  .body2{
+     font-size: 10px;
+  }
+   
+    .btn{
+      font-size: 10px;
+    }
+    .header{
+      font-size: 15px;
+    }
+
+    .runo h1{
+      margin: 0 auto;
+      font-size: 11px;
+      position: relative;
+      /* left: -30; */
+      text-align: center;
+    }
+
+.fashion{
+   font-size: 10px;
+ }
+
+ .header1{
+   font-size: 15px;
+}
+#head1{
+  font-size: 15px;
+  margin-right: 6.90rem;
+}
+
+#head2{
+  font-size: 13px;
+}
+
+#front {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  place-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  gap: 2px;
+}
+
+#paras{
+  margin:  0 auto;
+  font-size: 11px; 
+}
+
+.blog1{
+    max-width: 400px;
+    display: block;
+    text-align: center;
+} 
+
+
+ .blog2{
+  max-width: 400px;
+  display: block;
+  text-align: center;
+} 
+
+.blog3{
+    max-width: 400px;
+    display: block;
+    text-align: center;
+}
+
+#fashion-btn{
+  font-size: 12px;
+  width: 80px;
+  padding: 2px;
+}
+
+#head{
+  font-size: 13px;
+  margin-left: 0;
+}
+
+#last1{
+  margin-left: 1.57rem;
+}
+
+#last2{
+  margin-left: .50rem;
+}
+#viewall{
+  position: relative;
+  bottom: 2.80rem;
+}
+
+#adventure{
+   display: flex;
+}
+
+.bgbody {
+   width: 100%; 
+  height: 650px;
+}
+
+/* #container{
+
+  
+} */
+
+
+#body{
+  display: flex;
+  justify-content: center;
+}
+
+ }
+  
